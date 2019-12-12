@@ -12,8 +12,7 @@ class DelayedButton extends Component {
       }, this.props.delay
     )
   };
-
-
+  
   render() {
     return (
       <button onClick={this.handleClick}
